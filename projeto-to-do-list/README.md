@@ -22,6 +22,7 @@ Análise de Risco
 Recursos
 
 # Objetivos SMART
+
     Específico: 
         Desenvolver uma aplicação web de To-Do List com funcionalidades básicas de CRUD (Create, Read, Update, Delete) para tarefas, autenticação de usuários, e armazenamento persistente de dados.
 
@@ -37,12 +38,13 @@ Recursos
     Atingível:
         O projeto será desenvolvido utilizando frameworks e ferramentas amplamente utilizados e documentados, com suporte a bibliotecas e frameworks já estabelecidos, como React para frontend e Express para backend.
 
-Relevante: A aplicação ajudará os colaboradores da Escola SENAI a gerenciar suas tarefas de maneira eficiente e segura, refletindo a qualidade e a inovação esperadas em projetos educacionais.
+    Relevante: 
+        A aplicação ajudará os colaboradores da Escola SENAI a gerenciar suas tarefas de maneira eficiente e segura, refletindo a qualidade e a inovação esperadas em projetos educacionais.
 
-Temporal: O projeto será concluído em 8 semanas, divididas nas seguintes fases:
-
-Planejamento e definição de requisitos: 1 semana.
-Desenvolvimento do backend (Node.js e MongoDB): 2 semanas.
-Desenvolvimento do frontend (React): 3 semanas.
-Integração e testes: 1 semana.
-Documentação e entrega: 1 semana.
+    Temporal: 
+       -O projeto será concluído em 8 semanas, divididas nas seguintes fases:
+       -Planejamento e definição de requisitos: 1 semana.
+       -Desenvolvimento do backend (Node.js e MongoDB): 2 semanas.
+       -Desenvolvimento do frontend (React): 3 semanas.
+       -Integração e testes: 1 semana.
+       -Documentação e entrega: 1 semana.
