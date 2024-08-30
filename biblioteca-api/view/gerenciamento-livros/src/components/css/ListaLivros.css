@@ -1,0 +1,64 @@
+/* Estilo para o contêiner principal do componente */
+.lista-livros {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para o título */
+.lista-livros h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilo para o link de adicionar um novo livro */
+.adicionar-livro {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.adicionar-livro:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para a lista de livros */
+.livros-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.livro-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para os links de editar e botões de deletar */
+.editar-livro, .deletar-livro {
+    text-decoration: none;
+    color: #007bff;
+    margin-left: 10px;
+}
+
+.editar-livro:hover {
+    text-decoration: underline;
+}
+
+.deletar-livro {
+    background: none;
+    border: none;
+    color: #dc3545;
+    cursor: pointer;
+}
+
+.deletar-livro:hover {
+    text-decoration: underline;
+}
