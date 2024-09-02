@@ -2,6 +2,8 @@
 
 Sistema Web de Gerenciamento de Tarefas
 
+<hr>
+
 ### **Descrição do Projeto:**
 
 Sistema Web de Gerenciamento de Tarefas onde usuários podem controlar melhor sua rotina, deixando-a mais organizada
@@ -9,6 +11,8 @@ Sistema Web de Gerenciamento de Tarefas onde usuários podem controlar melhor su
 - **Escopo:**
     
     Este sistema de gerenciamento é uma aplicação web que permitirá  usuários que gerenciem e organizem suas rotinas, seus objetivos, projetos, deveres ao longo do mês ou da semana. Também a busca e visualização de informações detalhadas das tarefas, para que o trabalho seja mais eficiente e eficaz. Utilizando uma filtragem, o aplicativo fornecerá dados sobre tarefa.
+
+<hr>
 
 **Objetivos SMART**
 
@@ -40,6 +44,8 @@ Sistema Web de Gerenciamento de Tarefas onde usuários podem controlar melhor su
     - Integração e testes: 1 semana
     - Documentação e entrega: 1 semana
 
+<hr>
+
 ### **Planejamento do Projeto:**
  **Cronograma:**
 | Etapa | Descrição | Tempo Estimado |
@@ -49,6 +55,8 @@ Sistema Web de Gerenciamento de Tarefas onde usuários podem controlar melhor su
 | Desenvolvimento do frontend | Implementação da interface do usuário e funcionalidades frontend (React) | 3 semanas |
 | Integração e testes | Integração entre frontend e backend, testes funcionais, correção de bugs | 1 semana |
 | Documentação e entrega | Revisão final, documentação técnica e de usuário, preparação para entrega | 1 semana |
+
+
 - **Recursos:**
     - **Equipe de Desenvolvimento:**
     • Desenvolvedor Frontend: Especializado em React e design responsivo.
@@ -69,6 +77,8 @@ Sistema Web de Gerenciamento de Tarefas onde usuários podem controlar melhor su
     • Autenticação: JWT (JSON Web Tokens)
     • Requisições HTTP: Axios.
 
+<hr>
+
 ### **Análise de Riscos:**
 
 **Risco 1:** Atrasos no desenvolvimento devido a mudanças nos requisitos ou problemas técnicos.
@@ -83,6 +93,7 @@ Sistema Web de Gerenciamento de Tarefas onde usuários podem controlar melhor su
 
 **Solução:** Implementar boas práticas de segurança para JWT, como uso de chaves secretas fortes, definição adequada de expiração dos tokens, e validação rigorosa no backend. Realizar auditorias de segurança regulares e manter-se atualizado sobre vulnerabilidades conhecidas em bibliotecas JWT.
 
+<hr>
 
 ### **Diagramas**
 
@@ -90,9 +101,13 @@ Sistema Web de Gerenciamento de Tarefas onde usuários podem controlar melhor su
 
 <img src="diagramas/diagramaClasse.png" alt="Diagrama" width="500"/>
 
+<hr>
+
 **Diagrama de Uso:**
 
 <img src="diagramas/diagramaFluxo.png" alt="Diagrama" width="500"/>
+
+<hr>
 
 **Diagrama de Uso:**
 
