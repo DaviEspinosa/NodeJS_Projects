@@ -6,6 +6,10 @@ Sistema Web de Gerenciamento de Tarefas
 
 Sistema Web de Gerenciamento de Tarefas onde usuários podem controlar melhor sua rotina, deixando-a mais organizada
 
+- **Escopo:**
+    
+    Este sistema de gerenciamento é uma aplicação web que permitirá  usuários que gerenciem e organizem suas rotinas, seus objetivos, projetos, deveres ao longo do mês ou da semana. Também a busca e visualização de informações detalhadas das tarefas, para que o trabalho seja mais eficiente e eficaz. Utilizando uma filtragem, o aplicativo fornecerá dados sobre tarefa.
+
 **Objetivos SMART**
 
 - **Específico**:
@@ -37,15 +41,14 @@ Sistema Web de Gerenciamento de Tarefas onde usuários podem controlar melhor su
     - Documentação e entrega: 1 semana
 
 ### **Planejamento do Projeto:**
-<!-- - **Cronograma:**
-
+ **Cronograma:**
 | Etapa | Descrição | Tempo Estimado |
 | --- | --- | --- |
 | Planejamento e definição de requisitos | Levantamento de requisitos, escopo, diagramas, objetivos e recursos | 1 semana |
 | Desenvolvimento do backend | Configuração do ambiente, criação de models e controllers, implementação de funcionalidades backend (Node.js e MongoDB) | 2 semanas |
 | Desenvolvimento do frontend | Implementação da interface do usuário e funcionalidades frontend (React) | 3 semanas |
 | Integração e testes | Integração entre frontend e backend, testes funcionais, correção de bugs | 1 semana |
-| Documentação e entrega | Revisão final, documentação técnica e de usuário, preparação para entrega | 1 semana | -->
+| Documentação e entrega | Revisão final, documentação técnica e de usuário, preparação para entrega | 1 semana |
 - **Recursos:**
     - **Equipe de Desenvolvimento:**
     • Desenvolvedor Frontend: Especializado em React e design responsivo.
