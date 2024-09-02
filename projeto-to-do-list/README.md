@@ -91,3 +91,7 @@ Sistema Web de Gerenciamento de Tarefas onde usuários podem controlar melhor su
 
 <img src="diagramas/diagramaFluxo.png" alt="Diagrama" width="500"/>
 
+**Diagrama de Uso:**
+
+<img src="diagramas/diagramaUso.png" alt="Diagrama" width="500"/>
+
