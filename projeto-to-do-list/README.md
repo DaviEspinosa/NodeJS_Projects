@@ -84,7 +84,7 @@ Sistema Web de Gerenciamento de Tarefas onde usuários podem controlar melhor su
 ### **Diagramas**
 
 **Diagrama de Classe:**
-![Diagrama](/diagramas/diagramaClasse.png)
+![Diagrama](diagramas/diagramaClasse.png)
 
 **Diagrama de Uso:**
-![Diagrama](/diagramas/diagramaFluxo.png)
+![Diagrama](diagramas/diagramaFluxo.png)
