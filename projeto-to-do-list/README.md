@@ -79,3 +79,12 @@ Sistema Web de Gerenciamento de Tarefas onde usuários podem controlar melhor su
 **Risco 3:** Falhas de segurança relacionadas à implementação incorreta do JWT (JSON Web Token).
 
 **Solução:** Implementar boas práticas de segurança para JWT, como uso de chaves secretas fortes, definição adequada de expiração dos tokens, e validação rigorosa no backend. Realizar auditorias de segurança regulares e manter-se atualizado sobre vulnerabilidades conhecidas em bibliotecas JWT.
+
+
+### **Diagramas**
+
+**Diagrama de Classe:**
+![Diagrama](/diagramas/diagramaClasse.png)
+
+**Diagrama de Uso:**
+![Diagrama](/diagramas/diagramaFluxo.png)
