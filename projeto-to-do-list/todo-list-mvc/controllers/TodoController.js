@@ -1,11 +1,12 @@
 
 import Todo from '@/models/Todo';
 import connectMongo from '@/utils/mongodb';
+import closeConnection from '@/utils/mongodbCloseConnection';
 
 
 export const getTodos = async () => {
   await connectMongo();
-  return await Todo.find({}) && await closeconnectMongo();
+  return await Todo.find({});
 };
 
 
