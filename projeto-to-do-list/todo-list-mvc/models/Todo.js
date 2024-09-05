@@ -6,8 +6,17 @@ const TodoSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    completed:{
-        type: Boolean,
-        default:false,
+    description:{
+        type:String,
+        required:false,
+    },
+    status:{
+        type: String,
+        enum:["A Fazer", "Em Processo", "Concluído"],
+        default:"A Fazer",
     }
 });
+
+const Todo = mongoose.models.Todo || mongoose.model("Todo", TodoSchema);
+
+export default Todo;

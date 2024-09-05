@@ -5,7 +5,7 @@ import connectMongo from '@/utils/mongodb';
 
 export const getTodos = async () => {
   await connectMongo();
-  return await Todo.find({});
+  return await Todo.find({}) && await closeconnectMongo();
 };
 
 

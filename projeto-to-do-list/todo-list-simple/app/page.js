@@ -42,12 +42,17 @@ export default function Home() {
     setTodos(todos.filter((todo) => todo._id !== id));
   };
 
-    // Função para alternar o estado de conclusão de uma tarefa
-    const toggleCompletion = (id) => {
-      setTodos(todos.map(todo =>
-        todo._id === id ? { ...todo, completed: !todo.completed } : todo
-      ));
-    };
+  const updateTodo = async (id, status) =>{
+    const response = await fetch(`/api/todos/${id}`,{
+      method:'PUT',
+      headers:{
+        'Content-Type' : 'application/json',
+      },
+      body: JSON.stringify({completed:!status}),
+    });
+    await response.json();
+    fetchTodos();
+  }
 
   return (
     <div>
@@ -61,8 +66,8 @@ export default function Home() {
       <ul>
         {todos.map((todo) => (
           <li key={todo._id}>
-            <input type="checkbox" checked={todo.completed} onChange={() => toggleCompletion(todo._id)}/>
-            {todo.title}
+            <input type="checkbox" checked={todo.completed} onChange={()=> updateTodo(todo._id)}/>
+            {todo.title} - {todo.completed?"Concluído":"Pendente"}
             <button onClick={() => deleteTodo(todo._id)}>Excluir</button>
           </li>
         ))}
